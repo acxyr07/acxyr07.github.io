@@ -1,0 +1,30 @@
+input[type="file"]
+{
+	width: 200px;
+	cursor: pointer;
+	background-color: #138496;
+	color: white;
+	margin-top: 10px;
+	border-radius: 5px;
+	transition: 0.3s;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+input[type="file"]:hover
+{
+	background-color: #3AD1E7;
+	color: black;
+}
+input[type="submit"]
+{
+	height: 25px;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+	border: currentColor;
+	transition: 0.3s;
+}
+input[type="submit"]:hover
+{
+	color: black;
+}

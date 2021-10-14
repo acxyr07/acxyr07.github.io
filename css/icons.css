@@ -1,0 +1,55 @@
+.homeicons
+{
+    height: 40px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    padding-left: 40px;
+}
+.contacticons
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    margin-top: -6px;
+}
+.panelicons
+{
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    margin-top: 0px;
+    border: currentColor;
+    margin-left: 30px;
+}
+/* Doctor's Page */
+.usericon
+{
+  float: left;
+  height: 40px;
+  width: 40px;
+  display: block;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -10px;
+  background: transparent;
+  border-radius: 50%;
+}
+.dashboardicon
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    float: left;
+    margin-left: 15px;
+    margin-right: 0px;
+}
+.tableicons
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}

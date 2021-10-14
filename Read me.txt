@@ -1,0 +1,2 @@
+Create a Database called "healthcare"
+import the database healthcare

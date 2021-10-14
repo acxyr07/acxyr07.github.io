@@ -1,0 +1,224 @@
+/*Patient Registration Form*/
+.st
+{
+	width: 100%;
+	height: 30px;
+	margin-left: 5px;
+	margin-top: 5px;
+	color: black;
+}
+.patientreglabel
+{
+	color: black;
+	display: block;
+	text-align: left;
+	margin-left: 18px;
+}
+.termslabel
+{
+	text-align: center;
+	color: black;
+}
+.regform
+{
+	margin-top: 30px;
+	position: relative;
+	max-width: 97%
+}
+.regform input
+{
+	background: transparent;
+	border: 1px solid #6D6E6A;
+	color: black;
+	margin-top: 5px;
+	width: 100%;
+
+}
+.regform select
+{
+	background: transparent;
+	border: 1px solid #6D6E6A;
+	color: black;
+	height: 30px;
+	margin-top: 5px;
+	margin-left: 5px;
+	cursor: pointer;
+	width: 100%;
+}
+.regform option
+{
+	background: transparent;
+	border: 1px solid #6D6E6A;
+	color: black;
+	height: 30px;
+	width: 100%;
+}
+.sl
+{
+	height: 30px;
+	width: 90%;
+	color: black;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.mt
+{
+	height: 30px;
+	color: black;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.regform .checkbox
+{
+	height: 20px;
+	cursor: pointer;
+	width: 20px;
+}
+
+
+
+/*Medical Form*/
+.medform h2
+{
+	margin-top: 30px;
+}
+.medform select
+{
+	background: transparent;
+	border: 1px solid #6D6E6A;
+	color: black;
+	width: 90%;
+	height: 28px;
+	margin-top: 5px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.medform option
+{	
+	max-width: 100px;
+	width: 90%;
+	height: 20px;
+}
+.medstats
+{
+	width: 90%;
+	height: 27px;
+	margin-left: 5px;
+	margin-top: 5px;
+	color: black;
+	background-color: transparent;
+	border: 1px solid #6D6E6A;
+}
+.medform textarea
+{
+	width: 90%;
+	height: 100px; 
+	color: black; 
+	background: transparent;
+	text-align: left;
+}
+.homepageloginlink
+{
+	text-decoration: none;
+	color: black;
+	padding-top: 5px;
+	display: block;
+	margin-left: auto;
+}
+.homepageloginlink:hover
+{
+	text-decoration: underline;
+	color: #17A2B8;
+	margin-left: auto;
+}
+
+.docregform
+{
+	width: 100%;
+	padding-right: 0px;
+}
+.docregform input
+{
+	width: 90%;
+}
+.docregform select
+{
+	width: 90%;
+	height: 35px;
+	cursor: pointer;
+}
+.docregform option
+{
+	width: 90%;
+
+}
+
+.patientreglabel
+{
+	color: black;
+	display: block;
+	text-align: left;
+	margin-left: 5px;
+}
+.termslabel
+{
+	text-align: center;
+	color: black;
+}
+.regform2
+{
+	margin-top: 30px;
+	position: relative;
+	max-width: 97%
+}
+.regform2 input
+{
+	background: transparent;
+	border: 1px solid #6D6E6A;
+	color: black;
+	margin-top: 5px;
+	width: 100%;
+	margin-left: 0px;
+}
+.regform2 select
+{
+	background: transparent;
+	border: 1px solid #6D6E6A;
+	color: black;
+	height: 30px;
+	margin-top: 5px;
+	cursor: pointer;
+	width: 100%;
+	margin-left: 0px;
+}
+.regform2 option
+{
+	background: transparent;
+	border: 1px solid #6D6E6A;
+	color: black;
+	height: 30px;
+	width: 100%;
+}
+.sl
+{
+	height: 30px;
+	width: 90%;
+	color: black;
+	margin-top: 5px;
+	margin-left: 5px;
+	background-color: transparent;
+	border: 1px solid #6D6E6A;
+}
+.mt
+{
+	height: 30px;
+	color: black;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.regform2 .checkbox
+{
+	height: 20px;
+	cursor: pointer;
+	width: 20px;
+}

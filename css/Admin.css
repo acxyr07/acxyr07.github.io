@@ -1,0 +1,67 @@
+.toplabel
+{
+	display: block;
+	color: black;
+	float: left;
+	margin-left: 40px;
+}
+.divisionLabel
+{
+	color: #485462;
+	font-size: 24px;
+}
+.centerdiv
+{
+	height: 400px;
+	width: 400px;
+	margin-top: 60px;
+}
+.adminText
+{
+	height: 30px;
+	width: 80%;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+.add
+{
+	background-color: #1BB3DE;
+	height: 30px;
+	width: 200px;
+	border: currentColor;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+.add:hover
+{
+	background-color: #13AE26;
+	border: currentColor;
+	cursor: pointer;
+	transition: 0.3s;
+	color: white;
+}
+.bth
+{
+	background-color: #EA1C2C;
+	width: 200px;
+	height: 30px;
+	border: currentColor;
+	cursor: pointer;
+	color: white;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.bth:hover
+{
+	background-color: #FF5B5B;
+	border: currentColor;
+	color: black;
+	transition: 0.3s
+}
+a
+{
+	text-decoration: none;
+	color: currentColor;
+}

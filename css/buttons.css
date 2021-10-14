@@ -1,0 +1,497 @@
+@media screen and (min-width: 1024px)
+{
+	button
+	{
+		font-size: 18px;
+	}
+}
+/* Patient Reset Password */
+.resetbtn
+{
+	height: 42px;
+	width: 360px;
+	color: white;
+	background-color: #138496;
+	cursor: pointer;
+	margin-top: 10px;
+	font-size: 20px;
+	border-radius: 8px;
+}
+/*Patient Registration*/
+.patientregsignupbtn
+{
+	width: 100%;
+	max-width: 200px;
+	align-content: center;
+	height: 40px;
+	color: white;
+	margin-top: 15px;
+	margin-left: 5px;
+	background-color: #17A2B8;
+	border-radius: 5px;
+	border: currentColor;
+	cursor: pointer;
+}
+.patientregsignupbtn:hover
+{
+	background-color: #2CCDE4;
+	color: black;
+	transition: 0.3s;
+}
+.backtohomebtn
+{
+	width: 795px;
+	height: 30px;
+	color: white;
+	margin-top: 5px;
+	margin-left: 5px;
+	background-color: #D94242;
+	border-radius: 5px;
+	cursor: pointer;
+	border: currentColor;
+}
+.backtohomebtn:hover
+{
+	color: black;
+	text-decoration: none;
+	background-color: #E16868;
+	transition: 0.3s;
+}
+
+/* Patient Panel Buttons */
+.btn_view
+{
+	background-color: #48B04A;
+	color: white;
+	width: 100%;
+	height: 22px;
+	border-radius: 5px;
+	border: currentColor;
+	box-shadow: 0px 2px 5px 0px;
+	cursor: pointer;
+	align-items: center;
+}
+.btn_view:hover
+{
+	background-color: #9CD89D;
+	color: black;
+	transition: 0.3s;
+}
+.btn_respond
+{
+  background-color: #D2BA0F;
+  color: white;
+  width: 100%;
+  height: 22px;
+  border-radius: 5px;
+  border: currentColor;
+  box-shadow: 0px 2px 5px 0px;
+  cursor: pointer;
+}
+.btn_respond:hover
+{
+  background-color: #F3E15F;
+  color: black;
+  transition: 0.3s;
+}
+.btn_resched
+{
+  background-color: #160FA8;
+  color: white;
+  width: 100%;
+  height: 22px;
+  border-radius: 5px;
+  border: currentColor;
+  box-shadow: 0px 2px 5px 0px;
+  cursor: pointer;
+}
+.btn_resched:hover
+{
+  background-color: #AFABF8;
+  color: black;
+  transition: 0.3s;
+}
+
+.inlined
+{
+	display: inline-table;
+	height: 25px;
+	width: 100%;
+	color: white;
+	border: currentColor;
+	box-shadow: 0px 2px 5px 0px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+@media screen and (max-width: 500px)
+{
+	.inlined
+	{
+		width:200px;
+		height: 30px;
+		cursor: pointer;
+		margin-bottom: 10px;
+	}
+}
+.inlinedpink
+{
+	background-color: #F11BC7;
+}
+.inlinedorange
+{
+	background-color: #EB5725;
+}
+.inlinedorange
+{
+	background-color: #EB5725;
+}
+.inlinedviolet
+{
+	background-color: #8206B0;
+}
+
+.inlined:hover
+{
+	transition: 0.3s;
+	color: black;
+	background-color: white;
+	border: currentColor;
+}
+
+.addmedformbtn
+{
+	background-color: #7C3255;
+	height: 30px;
+	width: 220px;
+	margin-top: 15px;
+	border-radius: 5px;
+	border: currentColor;
+	color: white;
+	cursor: pointer;
+	box-shadow: 0px 2px 10px 0px ;
+
+}
+.addmedformbtn:hover
+{
+	transition: 0.3s;
+	color: black;
+	background-color: #D291AF;
+}
+
+/*Medical Form*/
+.medformsubmit
+{
+	background-color: #23A7B1;
+	cursor: pointer;
+	border: currentColor;
+	height: 2em;
+	width: 9em;
+	font-size: 18px;
+	border-radius: 5px;
+}
+.medformsubmit:hover
+{
+	color: white;
+	transition: 0.2s;
+	background-color: #18777E;
+}
+/*Patient Profile*/
+.division
+{
+	height: auto;
+}
+.division .upp
+{
+	background-color: #2F51F2;
+	width: 200px;
+	margin-top: -9px;
+	color: white;
+}
+.division .upp:hover
+{
+	background-color: #7E94F8;
+	color: black;
+}
+.updatephoto
+{
+	background-color: #EF8434;
+	width: 200px;
+	margin-top: 10px;
+}
+.updatephoto:hover
+{
+	background-color: #F4AD79;
+}
+.division .ups
+{
+	background-color: #47B024;
+	width: 200px;
+	margin-top: 10px;
+}
+.division .ups:hover
+{
+	background-color: #7DDE5C;
+}
+.division .bth
+{
+	background-color: #BE1829;
+	width: 404px;
+	margin-top: 10px;
+}
+.division .bth:hover
+{
+	background-color: #EB6371;
+}
+.doneupdate
+{
+	background-color: #1C99BD;
+	width: 80%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.doneupdate:hover
+{
+	background-color: #46C0E3;
+}
+/*Doctor page*/
+.loginbutton
+{
+	background-color: #138496;
+	height: 50px;
+	width: 300px;
+	color: white;
+	font-size: 18px;
+	border-radius: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+	border: currentColor;
+}	
+.loginbutton:hover
+{
+	background-color: #1CBFD7;
+	transition: 0.3s;
+	color: black;
+}
+.docloginbutton
+{
+	height: 40px;
+	width: 80%;
+	margin-top: 10px;
+	font-size: 18px;
+	background-color: #138496;
+	color: white;
+	cursor: pointer;
+	border-radius: 10px;
+	border: currentColor;
+}
+.docloginbutton:hover
+{
+	background-color: #1CBFD7;
+	transition: 0.3s;
+	color: black;
+}
+/*Doc Buttons*/
+
+.btnsecurityinfo
+{
+	background-color: #119D96;
+	width: 404px;
+	margin-top: 10px;
+}
+.btnsecurityinfo:hover
+{
+	background-color: #17D9CF;
+}
+.btnaddschedinfo
+{
+	background-color: #42B93C;
+	width: 404px;
+	margin-top: 10px;
+}
+.btnaddschedinfo:hover
+{
+	background-color: #78D174;
+}
+.btndoneupdate
+{
+	background-color: #1C99BD;
+	width: 404px;
+	margin-top: 10px;
+}
+.btndoneupdate:hover
+{
+	background-color: #46C0E3;
+}
+.btnupdateinfo
+{
+	background-color: #AD1D82;
+	width: 404px;
+	margin-top: 10px;
+}
+.btnupdateinfo:hover
+{
+	background-color: #E151B6;
+}
+.schedule .btndoneupdate
+{
+	background-color: #1C99BD;
+	margin-top: 30px;
+	margin-left: 60px;
+}
+.schedule .btndoneupdate:hover
+{
+	background-color: #46C0E3;
+}
+.schedule .btps
+{
+	color: black;
+	font-size: 15px;
+	transition: 0.3s;
+	margin-top: 5px;
+	padding: 0;
+}
+.schedule .btps:hover
+{
+	color: #138496;
+	text-decoration: underline;
+}
+
+
+.Addadmin
+{
+	background-color: #409D9D;
+	color: white;
+	width: 200px;
+	border-radius: 5px;
+}
+.Addadmin:hover
+{
+	transition: 0.3s;
+	background-color: #4ABCC6;
+	color: black;
+}
+.disablebtn
+{
+	background-color: #E92C3F;
+	color: white;
+	width: 150px;
+	border-radius: 5px;
+}
+.disablebtn:hover
+{
+	background-color: #F2848E;
+	color: black;
+}
+.dm
+{
+	background-color: #E92C3F;
+	color: white;
+	height: 40px;
+	width: 40px;
+	margin-right: 50px;
+	border-radius: 10px;
+}
+.mar
+{
+	background-color: #CB8332;
+	color: white;
+	height: 40px;
+	width: 40px;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+.dm:hover
+{
+	transition: 0.3s;
+	background-color: #F2848E;
+}
+.mar:hover
+{
+	transition: 0.3s;
+	background-color: #DDAB73;
+}
+.adminupdatephoto
+{
+	background-color: #EE8231;
+	width: 200px;
+	color: white;
+}
+.adminupdatephoto:hover
+{
+	background-color: #F4AD79;
+	color: black;
+	transition: 0.3s;
+}
+.updadminfo
+{
+	background-color: #0E8EA5;
+	color: white;
+	width: 200px;
+}
+.updadminfo:hover
+{
+	background-color: #12B7D3;
+	color: black;
+	transition: 0.3s;
+}
+.addpatientbtn
+{
+	background-color: #0E8EA5;
+	color: white;
+	width: 350px;
+	height: 30px;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: currentColor;
+	cursor: pointer;
+}
+.addpatientbtn:hover
+{
+	transition: 0.3s;
+	background-color: #12B7D3;
+	color: black;
+}
+.back
+{
+	color: black;
+}
+.back:hover
+{
+	color: #0E8EA5;
+	text-decoration: underline;
+}
+.updhealthcare
+{
+	background-color: #3AA5AD;
+	height: 30px;
+	width: 200px;
+	color: white;
+}
+.updhealthcare:hover
+{
+	color: black;
+	transition: 0.3s;
+	background-color: #5FC1C9;
+}
+.bthealthcare
+{
+	background-color: #E0363A;
+	height: 30px;
+	width: 200px;
+	color: white;
+	cursor: pointer;
+}
+.bthealthcare:hover
+{
+	color: black;
+	transition: 0.3s;
+	background-color: #EA777A;
+}
+
+/* Thankyou */
+.backtohomebtn
+{
+	height: 40px;
+	width: 200px;
+}

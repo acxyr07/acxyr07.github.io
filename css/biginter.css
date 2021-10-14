@@ -1,0 +1,107 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.header
+{
+	background-color: #138496;
+	width: auto;
+	height: 160px;
+	position: inherit;
+	flex-direction: row;
+	padding-bottom: 30px;
+}
+.header h1, .header a
+{
+	color: white;
+	text-transform: uppercase;
+}
+.docheader
+{
+	background-color: #1293E0;
+	width: auto;
+	height: 160px;
+	position: inherit;
+	flex-direction: row;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+}
+.headerh3
+{
+	color: #17FF17;
+	padding-top: 30px;
+	font-size: 50px;
+	align-content: center;
+	text-align: center;
+	margin-bottom: 20px;
+	background-size: cover;
+	display: block;
+	width: 100%;
+}
+.docheaderh3
+{
+	color: white;
+	padding-top: 30px;
+	font-size: 50px;
+	align-content: center;
+	text-align: center;
+	margin-bottom: 20px;
+	background-size: cover;
+	display: block;
+	width: 100%;
+}
+.headerwhite
+{
+	color: #138496;
+	text-align: center;
+}
+.text_centered
+{
+	font-size: 20px;
+	color: black;
+	height: auto;
+	width: 700px;
+	padding-bottom: 40px;
+	background-color: white;
+}
+.image
+{
+	height: 370px;
+	width: 100%;
+	margin-top: 5px;
+	border-radius: 10px;
+}
+.clinic
+{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin-top: -10px;
+	border: 3px solid #34F234;
+}
+/*Administrator*/
+.adminheader
+{
+	background-color: #C7C7C7;
+	width: auto;
+	height: 160px;
+	position: inherit;
+	flex-direction: row;
+	padding-bottom: 30px;
+}
+.adminheaderh3
+{
+	color: black;
+	padding-top: 30px;
+	font-size: 50px;
+	align-content: center;
+	text-align: center;
+	margin-bottom: 20px;
+	background-size: cover;
+	display: block;
+	width: 100%;
+	text-transform: uppercase;
+}

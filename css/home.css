@@ -1,0 +1,154 @@
+.lds-heart {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  transform: rotate(45deg);
+  transform-origin: 40px 40px;
+}
+.lds-heart div {
+  top: 32px;
+  left: 32px;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #63E12D;
+  animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.lds-heart div:after,
+.lds-heart div:before {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 150px;
+  height: 150px;
+  background: #63E12D;
+}
+.lds-heart div:before {
+  left: -74px;
+  border-radius: 50% 0 0 50%;
+}
+.lds-heart div:after {
+  top: -74px;
+  border-radius: 50% 50% 0 0;
+}
+@keyframes lds-heart {
+  0% {
+    transform: scale(0.95);
+  }
+  5% {
+    transform: scale(1.1);
+  }
+  39% {
+    transform: scale(0.85);
+  }
+  45% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+*
+{
+  padding: 0;
+  margin: 0;
+}
+body
+{
+  background-color: #138496;
+}
+.center 
+{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div h1
+{
+  transform: translate(0%, 350%);
+  text-align: center;
+  margin: 0;
+  text-shadow: 2px 2px white;
+  font-size: 40px;
+}
+
+div h1
+{
+  transform: translate(0, 350%);
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+}
+
+.text
+{
+  width: 300px;
+}
+
+h1 
+{
+  animation-duration: 1.3s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+}
+@keyframes slidein {
+  from {
+    margin-top: -150%;
+    width: 100%;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+
+input[type='button']
+{
+  width: 200px;
+  height: 60px;
+  margin-top: 30%;
+  border-radius: 10px;
+  cursor: pointer;
+  animation-duration: 1.3s;
+  animation-name: buttonslidein;
+  animation-iteration-count: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 20px;
+}
+@keyframes buttonslidein {
+  from {
+    margin-top: -150%;
+  }
+
+  to {
+    margin-top: 30%;
+  }
+}
+@media screen and (max-width: 640px)
+{
+  input[type='button']
+{
+  width: 200px;
+  height: 60px;
+  margin-top: 80%;
+}
+@keyframes buttonslidein {
+  from {
+    margin-top: -150%;
+  }
+
+  to {
+    margin-top: 80%;
+  }
+}
+}

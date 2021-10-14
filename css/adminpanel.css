@@ -1,0 +1,419 @@
+@media screen and (min-width: 1024px)
+i
+{
+	position: fixed;
+}
+.slide
+{
+	background: black;
+	height: 35px;
+	width: 35px;
+	border-radius: 4px;
+	border: 1px solid #212529;
+	cursor: pointer;
+  margin-left: 350px;
+  margin-top: 10px;
+  color: black;
+}
+.dashboard
+{
+	background-color: white;
+}
+
+.dashboard {
+  height: 100%; 
+  width: 0; 
+  position: fixed;
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+  border-right: 2px solid #138496;
+}
+
+
+.dashboard a
+{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  color: black;
+  margin-top: 1px;
+}
+
+
+.dashboard a:hover 
+{
+  color: white;
+  background-color: #606060;
+}
+
+
+.dashboard .closebtn 
+{
+  position: sticky;
+  top: 0;
+  right: 25px;
+  font-size: 50px;
+  margin-left: 250px;
+  height: 60px;
+  width: 100%;
+}
+
+.closebtn
+{
+	cursor: pointer;
+}
+.closebtn2
+{
+  top: 0;
+  right: 25px;
+  font-size: 50px;
+  float: right;
+  margin-top: 20px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  position: absolute;
+}
+
+#main {
+  transition: margin-left .5s;
+}
+
+ul
+{
+	margin-left: -30px;
+  font-size: 20px;
+  margin-left: 15px;
+  text-align: left;
+  color: #138496;
+}
+.aaa
+{
+	font-size: 2px;
+	display: block;
+	margin-left: -9px;
+  text-align: left;
+}
+.img
+{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  float: right;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -70px;
+}
+.headerwelcome h4
+{
+  text-align: center;
+}
+.headerwelcome h4 .welcome
+{
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  position: absolute;
+}
+
+.contentdiv
+{
+  background-color: #00EC00;
+  height: 100px;
+  width: 280px; 
+  display: inline-block;
+  border-radius: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.contentdiv:hover
+{
+  color: white;
+  background-color: #00BB00;
+  transition: .3s;
+}
+
+.icon
+{
+  float: right;
+  height: 60px;
+  width: 60px;
+  margin-top: 20px;
+  display: block;
+  position: static;
+  margin-right: 10px;
+  background: transparent;
+  border-radius: 50%;
+}
+label
+{
+  margin-left: 9px;
+}
+h2
+{
+  margin-bottom: 5px;
+  margin-left: 11px;
+}
+
+
+.updatehealthcarecontents textarea
+{
+  border: 1px solid #6D6E6A;
+  height: 300px;
+  width: 90%;
+  border-radius: 2px;
+  color: black;
+  resize: none;
+  align-content: center;
+}
+
+.updatehealthcarecontents label
+{
+  color: black;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.updatehealthcarecontents .division
+{
+  width: 300px;
+  height: 500px;
+  margin-top: 20px;
+}
+
+button
+{
+  cursor: pointer;
+  border: currentColor;
+  margin-top: 10px;
+  height: 25px;
+  border-radius: 3px;
+
+}
+button:hover
+{
+  transition: 0.3s;
+}
+
+.bth
+{
+  background-color: #DA2F45;
+  color: white;
+  width: 200px;
+  
+}
+.bth:hover
+{
+  background-color: #E9838F;
+  color: black;
+}
+.updatecontactbtn
+{
+  background-color: #0E8EA5;
+  width: 200px;
+  color: white;
+
+}
+.updatecontactbtn:hover
+{
+  background-color: #10A2BA;
+  color: black;
+}
+.updatecontactcontents label
+{
+  color: black;
+  font-size: 18px;
+  float: left;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.updatecontactcontents input
+{
+  width: 75%;
+  height: 30px;
+  margin-bottom: 10px;
+  float: right;
+  margin-right: 60px;
+}
+select
+{
+  cursor: pointer;
+  width: 75%;
+  height: 30px;
+  float: right;
+  margin-right: 60px;
+  margin-bottom: 10px;
+}
+.contacttext option
+{
+  width: 450px;
+  height: 30px;
+}
+
+.updatecontactcontents button
+{
+  cursor: pointer;
+  border: currentColor;
+  margin-top: 10px;
+  height: 25px;
+  width: 200px;
+  border-radius: 3px;
+}
+.updatecontactcontents button:hover
+{
+  transition: 0.3s;
+  opacity: 1;
+}
+.updatecontactcontents .contacttext
+{
+  border-radius: 5px;
+  border: 1px solid #797979;
+}
+.division
+{
+  width: 300px;
+  height: 600px;
+  margin-top: 20px;
+  margin-left: -100px;
+}
+.header
+{
+  background-color: #4ABCC6;
+  height: 20px;
+  padding: 30px;
+  color: black;
+}
+.cbnumber
+{
+  text-align: center;
+}
+
+.cbtbl td
+{
+  height: auto;
+  width: auto;
+  padding-bottom: 10px;
+  border: 1px solid #138496;
+}
+.aamtbl
+{
+  width: 100%;
+  border-collapse: collapse;
+}
+.aamtbl th
+  {
+    background-color: #1BB3DE;
+  }
+.aamtbl td, .aamtbl th
+{
+  padding: 12px 15px;
+  text-align: center;
+  font-size: 16px;
+}
+.aamtbl tbody tr:nth-child(even)
+{
+  background-color: #ffffff;
+}
+/*Responsive Table*/
+@media(max-width: 500px)
+{
+  .aamtbl thead
+  {
+    display: none;
+  }
+  .aamtbl, .aamtbl body, .aamtbl tr, .aamtbl td
+  {
+    display: block;
+  }
+  .aamtbl tr
+  {
+    margin-bottom: 15px;
+  }
+  .aamtbl td
+  {
+    text-align: left;
+    padding-left:100%;
+    text-align: left;
+    position: relative;
+  }
+  .aamtbl td::before
+  {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 60%;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+
+
+
+.aamtbl2
+{
+  width: 100%;
+  border-collapse: collapse;
+}
+.aamtbl2 th
+  {
+    background-color: #1BB3DE;
+  }
+.aamtbl2 td, .aamtbl2 th
+{
+  padding: 12px 15px;
+  text-align: center;
+  font-size: 16px;
+}
+.aamtbl2 tbody tr:nth-child(even)
+{
+  background-color: #ffffff;
+}
+/*Responsive Table*/
+@media(max-width: 500px)
+{
+  .aamtbl2 thead
+  {
+    display: none;
+  }
+  .aamtbl2, .aamtbl2 body, .aamtbl2 tr, .aamtbl2 td
+  {
+    display: block;
+  }
+  .aamtbl2 tr
+  {
+    margin-bottom: 15px;
+  }
+  .aamtbl2 td
+  {
+    text-align: left;
+    padding-left:50%;
+    text-align: left;
+    position: relative;
+  }
+  .aamtbl2 td::before
+  {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 60%;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+  }
+}

@@ -1,0 +1,340 @@
+
+.center {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+/*Schedule*/
+.popup {
+  width:350px;
+  height:autox;
+  padding:30px 20px;
+  background: rgba(255, 255, 255, 1);
+  border-radius:10px;
+  box-sizing:border-box;
+  z-index:2;
+  text-align:center;
+  opacity:0;
+  top:-200%;
+  transform:translate(-50%,-50%) scale(1);
+  transition: opacity 300ms ease-in-out,
+              top 1000ms ease-in-out,
+              transform 1000ms ease-in-out;
+
+}
+.popup.active {
+  opacity:1;
+  top:50%;
+  transform:translate(-50%,-50%) scale(1.2);
+  transition: transform 300ms cubic-bezier(0.18,0.89,0.43,1.19);
+}
+
+.popup .icon img {
+  margin:5px 0px;
+  width:50px;
+  height:50px;
+  border:2px solid #34f234;
+  text-align:center;
+  display:inline-block;
+  border-radius:50%;
+  line-height:60px;
+}
+
+.popup .title {
+  margin:5px 0px;
+  font-size:30px;
+  font-weight:600;
+  text-transform: uppercase;
+}
+.popup .description {
+  color:#222;
+  font-size:15px;
+  padding:5px;
+}
+.popup .dismiss-btn {
+  margin-top:15px;
+  width: 100%;
+}
+.popup .dismiss-btn button {
+  padding:10px 20px;
+  background:#111;
+  color:#f5f5f5;
+  border:2px solid #111;
+  font-size:16px;
+  font-weight:600;
+  outline:none;
+  border-radius:10px;
+  cursor:pointer;
+  transition: all 300ms ease-in-out;
+}
+.popup .dismiss-btn button:hover {
+  color:#111;
+  background:#f5f5f5;
+}
+.popup > div {
+  position:relative;
+  top:10px;
+  opacity:0;
+}
+.popup.active > div {
+  top:0px;
+  opacity:1;
+}
+.popup.active .icon {
+  transition: all 300ms ease-in-out 250ms;
+}
+.popup.active .title {
+  transition: all 300ms ease-in-out 300ms;
+}
+.popup.active .description {
+  transition: all 300ms ease-in-out 350ms;
+}
+.popup.active .dismiss-btn {
+  transition: all 300ms ease-in-out 400ms;
+}
+
+/*Request Sched*/
+.popup2 {
+  width:350px;
+  height:autox;
+  padding:30px 20px;
+  background: rgba(255, 255, 255, 1);
+  border-radius:10px;
+  box-sizing:border-box;
+  z-index:2;
+  text-align:center;
+  opacity:0;
+  top:-200%;
+  transform:translate(-50%,-50%) scale(1);
+  transition: opacity 300ms ease-in-out,
+              top 1000ms ease-in-out,
+              transform 1000ms ease-in-out;
+
+}
+.popup2.active {
+  opacity:1;
+  top:50%;
+  transform:translate(-50%,-50%) scale(1.2);
+  transition: transform 300ms cubic-bezier(0.18,0.89,0.43,1.19);
+}
+
+.popup2 .icon img {
+  margin:5px 0px;
+  width:50px;
+  height:50px;
+  border:2px solid #34f234;
+  text-align:center;
+  display:inline-block;
+  border-radius:50%;
+  line-height:60px;
+}
+
+.popup2 .title {
+  margin:5px 0px;
+  font-size:30px;
+  font-weight:600;
+  text-transform: uppercase;
+}
+.popup2 .description {
+  color:#222;
+  font-size:15px;
+  padding:5px;
+}
+.popup2 .dismiss-btn {
+  margin-top:15px;
+  width: 100%;
+}
+.popup2 .dismiss-btn button {
+  padding:10px 20px;
+  background:#111;
+  color:#f5f5f5;
+  border:2px solid #111;
+  font-size:16px;
+  font-weight:600;
+  outline:none;
+  border-radius:10px;
+  cursor:pointer;
+  transition: all 300ms ease-in-out;
+}
+.popup2 .dismiss-btn button:hover {
+  color:#111;
+  background:#f5f5f5;
+}
+.popup2 > div {
+  position:relative;
+  top:10px;
+  opacity:0;
+}
+.popup2.active > div {
+  top:0px;
+  opacity:1;
+}
+.popup2.active .icon {
+  transition: all 300ms ease-in-out 250ms;
+}
+.popup2.active .title {
+  transition: all 300ms ease-in-out 300ms;
+}
+.popup2.active .description {
+  transition: all 300ms ease-in-out 350ms;
+}
+.popup2.active .dismiss-btn {
+  transition: all 300ms ease-in-out 400ms;
+}
+
+/*Profile*/
+.popup3 {
+  width:350px;
+  height:autox;
+  padding:30px 20px;
+  background: rgba(255, 255, 255, 1);
+  border-radius:10px;
+  box-sizing:border-box;
+  z-index:2;
+  text-align:center;
+  opacity:0;
+  top:-200%;
+  transform:translate(-50%,-50%) scale(1);
+  transition: opacity 300ms ease-in-out,
+              top 1000ms ease-in-out,
+              transform 1000ms ease-in-out;
+
+}
+.popup3.active {
+  opacity:1;
+  top:50%;
+  transform:translate(-50%,-50%) scale(1.2);
+  transition: transform 300ms cubic-bezier(0.18,0.89,0.43,1.19);
+}
+
+.popup3 .icon img {
+  margin:5px 0px;
+  width:50px;
+  height:50px;
+  border:2px solid #34f234;
+  text-align:center;
+  display:inline-block;
+  border-radius:50%;
+  line-height:60px;
+}
+
+.popup3 .title {
+  margin:5px 0px;
+  font-size:30px;
+  font-weight:600;
+  text-transform: uppercase;
+}
+.popup3 .description {
+  color:#222;
+  font-size:15px;
+  padding:5px;
+}
+.popup3 .dismiss-btn {
+  margin-top:15px;
+  width: 100%;
+}
+.popup3 .dismiss-btn button {
+  padding:10px 20px;
+  background:#111;
+  color:#f5f5f5;
+  border:2px solid #111;
+  font-size:16px;
+  font-weight:600;
+  outline:none;
+  border-radius:10px;
+  cursor:pointer;
+  transition: all 300ms ease-in-out;
+}
+.popup3 .dismiss-btn button:hover {
+  color:#111;
+  background:#f5f5f5;
+}
+.popup3 > div {
+  position:relative;
+  top:10px;
+  opacity:0;
+}
+.popup3.active > div {
+  top:0px;
+  opacity:1;
+}
+.popup3.active .icon {
+  transition: all 300ms ease-in-out 250ms;
+}
+.popup3.active .title {
+  transition: all 300ms ease-in-out 300ms;
+}
+.popup3.active .description {
+  transition: all 300ms ease-in-out 350ms;
+}
+.popup3.active .dismiss-btn {
+  transition: all 300ms ease-in-out 400ms;
+}
+.widearea
+{
+	width: 300px;
+	height: 100px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	border: currentColor;
+}
+textarea
+{
+  border: currentColor;
+}
+form img
+{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: transparent;
+}
+select
+{
+  cursor: pointer;
+  width: 100%;
+  font-size: 15px;
+  height: 30px;
+  border: 2px solid #138496;
+  border-radius: 5px;
+}
+.profileform label
+{
+  float: left;
+}
+.profileform input
+{
+  float: right;
+  margin-top: -22px;
+  border: currentColor;
+  background: transparent;
+}
+.requestform label
+{
+  float: left;
+}
+.requestform input
+{
+  float: right;
+  width: 59%;
+  margin-top: -23px;
+}
+.requestform select, .requestform option
+{
+  width: 59%;
+  float: right;
+  margin-top: -23px;
+}
+.doctorprofile label
+{
+  float: left;
+}
+.doctorprofile input
+{
+  float: right;
+  width: 65%;
+  margin-top: -23px;
+  border: currentColor;
+  background: transparent;
+}

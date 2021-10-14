@@ -1,0 +1,270 @@
+/*Patient's*/
+.div2
+{
+	height: 30px;
+	width: auto;
+	background-color: #138496;
+	margin-top: -15px;
+	padding-bottom: 8px;
+}
+.div3
+{
+	height: auto;
+	width: auto;
+	background-color: #138496;
+	margin-top: 5px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+a
+{
+	color: white;
+	padding-top: 3px;
+	text-decoration: none;
+	padding-top: 55px;
+}
+h4
+{
+	color: white;
+	text-decoration: none;
+	padding-top: 55px;
+}
+h3
+{
+	color: #138496;
+	text-decoration: none;
+	padding-top: 55px;
+}
+
+/* Settings */
+.profilenavigation button
+{
+	display: block;
+	color: black;
+	margin-top: -10px;
+	cursor: pointer;
+	background-color: #138496;
+	height: 38px;
+	width: 200px;
+	color: white;
+	border: currentColor;
+	border-radius: 10px;
+}
+.profilenavigation button:hover
+{
+	background-color: #1CC1D9;
+	transition: 0.3s;
+	color: black;
+}
+.div4
+{
+	height: auto;
+	width: 300px;
+	background-color: #343A40;
+	margin-top: 5px;
+	border-radius: 10px;
+}
+
+img
+{
+	height: 170px;
+	width: 170px;
+	margin-top: 30px;
+	border-radius: 50%;
+	border: 1px solid #D4D4D4;
+}
+/*Patient Profile*/
+.division
+{
+	width: 500px;
+	height: 700px;
+	background-color: white;
+	margin-top: 5px;
+	border-radius: 15px;
+}
+.division label
+{
+	color: #138496;
+	float: left;
+	font-size: 18px;
+	margin-left: 50px;
+}
+.division button
+{
+	height: 25px;
+	border-radius: 5px;
+	border: currentColor;
+	color: white;
+	cursor: pointer;
+	transition: 0.3s;
+	font-weight: bold;
+}
+.division button:hover
+{
+	color: black;
+}
+.division .textline
+{
+	float: right;
+	height: 25px;
+	width: 300px;
+	margin-right: 65px;
+	background:transparent;
+	border: currentColor;
+	cursor: default;
+	color: black;
+}
+.division .readonly .textline2
+{
+	background-color: transparent;
+	border: transparent;
+	cursor: default;
+}
+.PatientProfileImage
+{
+	height: 160px;
+	width: 160px;
+	border-radius: 50%;
+}
+.division .textline2
+{
+	float: right;
+	height: 25px;
+	width: 70%;
+	margin-right: 85px;
+	background:transparent;
+	border: 1px solid #B2B2B2;
+	color: black;
+	border-radius: 5px;
+}
+.division select
+{
+	cursor: pointer;	
+}
+/*Doctor Sign in*/
+.login .inlined
+{
+	display: inline-block;
+}
+.login h2
+{
+	color: #138496;
+}
+.login .a
+{
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+.login .a:hover
+{
+	text-decoration: underline;
+	color: #138496;
+}
+.login input
+{
+	height: 35px;
+	width: 350px;
+	margin-top: 10px;
+	border-radius: 10px;
+	border: 1px solid #C7C7C7;
+	font-size: 18px;
+}
+.login .checkbox
+{
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+}
+/*Doctor Panel*/
+.docdiv2
+{
+	height: 30px;
+	width: auto;
+	background-color: #1293E0;
+	margin-top: -15px;
+	padding-bottom: 8px;
+}
+.docdiv3
+{
+	height: auto;
+	width: auto;
+	background-color: #1293E0;
+	margin-top: 5px;
+	padding-bottom: 50px;
+}
+/*Doctor Schedule*/
+.schedule h1
+{
+	color: #17FF17;
+}
+.schedule
+{
+	height: auto;
+	padding-bottom: 50px;
+}
+.schedule textarea
+{
+	width: 80%;
+	height: 150px;
+	background:transparent;
+	border: 1px solid #B2B2B2;
+	color: black;
+	font-size: 16px;
+}
+.schedule label
+{
+	color: black;
+	font-size: 24px;
+	float: left;
+	margin-left:20px;
+	text-align: center;
+	margin-top: 7px;
+}
+.schedule input
+{
+	width: 80%;
+	height: 30px;
+	background:transparent;
+	border: 1px solid #B2B2B2;
+	color: black;
+	font-size: 16px;
+}
+.schedule select
+{
+	width: 80%;
+	height: 30px;
+	background:transparent;
+	border: 1px solid #B2B2B2;
+	color: black;
+	font-size: 18px;
+	cursor: pointer;
+}
+.schedule option
+{
+	color: black;
+}
+.formSchedule
+{
+	padding-bottom: 50px;
+}
+.formSchedule select
+{
+	width: 350px;
+	height: 30px;
+	background:transparent;
+	border: 1px solid #B2B2B2;
+	color: black;
+	font-size: 18px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-top: -15px;
+	margin-bottom: 10px;
+
+}
+.formSchedule label
+{
+	height: 30px;
+	margin-left: 80px;
+}
+/* Administrator */

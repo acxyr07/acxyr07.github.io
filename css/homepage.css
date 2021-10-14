@@ -1,0 +1,107 @@
+/* 
+From Homepage up to Login Except Chatbot 
+Chatbot css isolated in css/style.css	
+*/
+.contactform
+{
+	margin-left: -600px;
+}
+.contactform textarea
+{
+	height: 200px;
+	width: 558px;
+	margin-top: 15px;
+}
+.contactform2
+{
+	text-align: left;
+	margin-left: 700px;
+	margin-top: -22.2%;
+}
+.contactform2 input
+{
+	height: 30px;
+	width: 600px;
+	font-size: 18px;
+	margin-top: -0.1px;
+	color: black;
+	border: transparent;
+	color: black;
+	border: 1px solid transparent;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.contactform2 label
+{
+	height: 30px;
+	width: 500px;
+}
+.t1
+{
+	height: 30px;
+	width: 270px;
+	margin-right: 6px;
+	margin-left: 6px;
+	margin-top: 20px;
+}
+.t2
+{
+	height: 25px;
+	width: 558px;
+	margin-top: 15px;
+}
+/* Patient Login */
+.login
+{
+	background-color: white;
+	height: 380px;
+	width: 600px;
+}
+.logintext
+{
+	background: transparent;
+	height: 35px;
+	width: 400px;
+	margin-top: 8px;
+	border-color: black;
+	color: black;
+	border-radius: 5px;
+	font-size: 23px;
+}
+.homepageloginlink
+{
+	text-decoration: none;
+	color: black;
+	padding-top: 5px;
+	display: block;
+	margin-left: auto;
+}
+.homepageloginlink:hover
+{
+	text-decoration: underline;
+	color: #17A2B8;
+	margin-left: auto;
+}
+.textmuted
+{
+	color: black;
+}
+.textmuted2
+{
+	color: #17A2B8;
+}
+/* Patient Reset Password */
+.resetparagraph
+{
+	color: black;
+}
+.resetinput
+{
+	height: 35px;
+	background: transparent;
+	max-width: 500px;
+	width: 80%;
+	font-size: 23px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
